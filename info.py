@@ -13,7 +13,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '24245556'))
 API_HASH = environ.get('API_HASH', 'aacaf8b9b624c074b117c9653626fb2d')
-BOT_TOKEN = environ.get('BOT_TOKEN', "8478533781:AAGL6D5oJTxIDLuXpI1l8Y8a9I2LjW1B76k")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7974867186:AAHsoXy6wYUw8um2WmxpVUItJsNqp7hD3eE")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
@@ -59,7 +59,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mdavezb77_db_user:IDoVqbrWarWfFceJ@mdavez7.jxzup5n.mongodb.net/?retryWrites=true&w=majority&appName=Mdavez7")   # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mdavezb77_db_user:<IDoVqbrWarWfFceJ>@mdavez7.jxzup5n.mongodb.net/")   # IF Multiple Database Is False Then Fill Only This Database Url.
 DATABASE_NAME = environ.get('DATABASE_NAME', "mdavezb77_db_user")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
 
@@ -196,4 +196,5 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
